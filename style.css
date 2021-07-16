@@ -327,7 +327,110 @@ span{
 
 
 
-  /* Gallery */
+  /* Testimonial*/
+
+  .text3 h1{
+    font-family: 18px;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+    padding: 0%;
+    color: darkgreen;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-top: 50px;
+  }
+  .span{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .text3 h1 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: lightgreen;
+  }
+
+
+  .containerTestimonial{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+.text-center{
+    margin:  1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    
+    font-weight: 200px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    color: black; 
+}
+.containerTestimonial .boxTestimonial{
+    position: relative;
+    padding: 80px 40px 40px;
+    transition: 0.5s;
+    text-align: center;
+    background-color:#FF616D;;
+}
+.containerTestimonial .boxTestimonial:hover{
+    background-color:#FFA900;
+}
+.containerTestimonial .boxTestimonial p{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    font-size: 18px;
+}
+.containerTestimonial .boxTestimonial h4{
+    padding: 0;
+    transition: 0.5s;
+    color:#81c644 ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.containerTestimonial .boxTestimonial h4 span{
+    font-weight: 600;
+    font-size: 14px;
+    color: blue;
+}
+.containerTestimonial .boxTestimonial:hover p,
+.containerTestimonial .boxTestimonial:hover h4,
+.containerTestimonial .boxTestimonial:hover h4 span{
+    color: white;
+}
+.containerTestimonial .boxTestimonial .imgBox{
+    position: absolute;
+    top: -60px;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20;
+}
+@media (max-width: 968px){
+    .containerTestimonial .boxTestimonial{
+        margin-top: 80px;
+    }
+}
+
+
+
+
+
 
 
   
